@@ -2,17 +2,19 @@ body, html{
 	height: 100%; 
 	width: 100%;
 	margin: 0; 
+	font-family: sans-serif;
 }
 
 .header {
 	margin: 0px; 
 	padding: 0px; 
 	background-color: #FFF; 
+	margin: 0 auto; 
 }
 .headerbox {
 	width: 303px; 
 	height: 181px;
-	margin: 10px;
+	margin: 10px auto;
 	display: flex;
 	flex-direction: row;
 }
@@ -23,37 +25,101 @@ body, html{
 
 .main {
 	width: 1024px;
-	height: 1400px;
+	height: auto;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;  
-	justify-content: center;
 	background-color: #FFF; 
+	border: solid 1px black;
 }
 
 .mainText {
 	color: #4A4A4A;
 	display: block;
+	font-weight: 700; 
+	font-family: sans-serif;
+	font-size: 22px;
+	line-height: 1.4em;
+	margin: 20px 10px 20px 10px;
 }
 
 .red {
 	background-color: #D0021B;
 	display: inline-block;
 	color: #FFF; 
+	margin: 10px;
 }
 
 .blue {
 	background-color: #4A90E2; 
 	display: inline-block;
 	color: #FFF; 
+	margin: 10px;
 }
 
 .charcoal {
 	background-color: #4A4A4A;
 	display: inline-block;
 	color: #FFF; 
+	margin: 10px;
 }
 
 .secondArea {
 	margin: 26px;
+}
+
+.thirdArea {
+	display: flex; 
+	flex-direction: row; 
+	justify-content: center;
+}
+.left {
+	width: 300px; 
+	height: 420px; <!-- dank nugz blaze it -->
+	margin: 0px; 
+}
+
+.right {
+	width: 660px; 
+	height: 420px; <!-- dang nugz blaze it again --> 
+	margin: 0px;
+}
+
+.redMid {
+	background-color: #D0021B;
+	display: inline-block;
+	color: #FFF; 
+	margin: 0px;
+}
+
+.blueMid {
+	background-color: #4A90E2; 
+	display: inline-block;
+	color: #FFF; 
+	margin: 0px;
+}
+
+.footer {
+	width: 965px; 
+	height: 181px;
+	background-color: #4A90E2;
+	margin: 26px; 
+	display: flex; 
+	justify-content: flex-end;
+	height: auto; 
+}
+
+.footerBox {
+	width: 303px;
+	height: 181px;
+	margin: 0px;
+	display: flex; 
+	justify-content: center; 
+}
+
+.second{
+	width: 220px;
+	height: 181px;
+	margin: 0px;
+	word-wrap: break-word;
 }
