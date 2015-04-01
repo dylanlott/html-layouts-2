@@ -1,0 +1,101 @@
+body, html {
+	background-color: rgb(221, 221, 221);
+	margin: 0; 
+	padding: 0; 
+	width: 100%; 
+	height: 100%; 
+	display: flex; 
+}
+
+.wrapper {
+	background-color: #eee;
+	width: 1024px; 
+	height: auto; 
+	margin: 0 auto; 
+	display: flex;
+	flex-direction: column;
+
+}
+
+h1 {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 22px;
+}
+
+p {
+	font-family: 'Arial', sans-serif;
+	font-size: 14px; 
+}
+.header {
+	background-color: #333333;
+	display: flex;
+	width: 100%;
+	height: 100px; 
+	margin: 0 auto;
+	flex-direction: row; 
+}
+
+.spacer{
+	width: 10px;
+	height: auto; 
+	display: flex; 
+}
+
+.footer {
+	background-color: #333333;
+	display: flex;
+	flex-direction: row; 
+	width: auto;
+	height: 100px; 
+}
+
+.column {
+	width: auto;
+	display: flex; 
+	flex-direction: column; 
+}
+
+.main-content {
+	background-color: #fff; 
+	height: auto; 
+	width: auto; 
+	padding: 40px 40px 40px 40px;
+	font-family: 'Arial', sans-serif;
+	display: flex;
+	flex-direction: row; 
+}
+
+.nav {
+	margin: 0px 0px 0px 40px;
+}
+
+.button {
+	background-color: #333; 
+	border: 1px; 
+	border-radius: 5; 
+	color: #fff;
+	font-family: 'Helvetica', sans-serif; 
+	font-size: 18px; 
+}
+
+.column {
+   	width: 360px; 
+   	height: auto; 
+   	margin: 0px 40px 0px 0px;
+   	padding: 20px;
+}
+
+/* container for images */ 
+.container {
+    width: 400px;
+    height: 280px;
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 0px;
+}
+
+/* resize images */
+.container img {
+    width: 100%;
+    height: auto;
+}
