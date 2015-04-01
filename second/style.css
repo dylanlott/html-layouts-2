@@ -70,10 +70,11 @@ h1 {
 .footer {
 	background-color: #343434;
 	width: auto;
+	padding: 20px 40px 20px 0px;
+	margin-top: 20px;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
-	padding: 20px 40px 20px 0px;
+	justify-content: center;
 	overflow: hidden;
 }
 
@@ -85,4 +86,5 @@ h1 {
 	background-color: #343434; 
 	border: none;
 	font-size: 16px;
+	padding: 0px 60px 0px 0px;
 }
